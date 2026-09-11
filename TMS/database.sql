@@ -19,7 +19,7 @@ CREATE TABLE tickets (
 );
 
 INSERT INTO admins(username,password) VALUES
-('admin','$2y$10$92IXUNpkO0rOQ5byMi.Ye4oKoEa3Ro9llC5dG2mV1u6p2QYlqK');
+('admin','$2y$12$eQCx0ETzXsUmdOFxXH.FEOqJY/x3H.6nsO4ZW2zWdJKlrvIALSjsy');
 
 INSERT INTO tickets(name,email,subject,description,status) VALUES
 ('John Doe','john@example.com','Cannot login','I am unable to login to my account.','Pending'),
